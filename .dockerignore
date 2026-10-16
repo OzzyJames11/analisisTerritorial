@@ -1,0 +1,27 @@
+# Control de versiones
+.git
+.gitignore
+
+# Entornos virtuales (Docker instalará sus propias dependencias)
+venv/
+env/
+.venv/
+
+# Variables de entorno (deben inyectarse en tiempo de ejecución, no copiarse a la imagen)
+.env
+
+# Resultados locales
+outputs/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del sistema
+.DS_Store
+
+# Configuraciones de IDEs
+.vscode/
+.idea/
+

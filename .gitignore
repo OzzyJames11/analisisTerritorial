@@ -1,0 +1,30 @@
+# Entornos virtuales locales
+venv/
+env/
+.venv/
+
+# Variables de entorno y credenciales
+.env
+
+# Archivos del sistema operativo (macOS)
+.DS_Store
+
+# Directorio de resultados (JSONs y CSVs generados)
+outputs/
+
+# Datos crudos (se ignora el Excel pesado, pero se permite el JSON de configuración)
+data/*.xlsx
+data/*.csv
+!data/carreras_interes.json
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Configuraciones de IDEs y editores
+.vscode/
+.idea/
+*.swp
+
