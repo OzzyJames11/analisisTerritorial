@@ -7,3 +7,5 @@ python-dotenv>=1.0
 sentence-transformers>=3.0
 thefuzz==0.22.1
 python-Levenshtein==0.25.1
+umap-learn>=0.5.5
+plotly>=5.18
